@@ -1,0 +1,24 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:d id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/a/MuPie%20X%2C%20Version%3D1.0.1601.40540%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<A id="ref-3"></A>
+<a id="ref-4"></a>
+<B id="ref-5"></B>
+<b>false</b>
+<C>false</C>
+<c>false</c>
+<D>false</D>
+<d>300</d>
+<E>0</E>
+<e>0</e>
+<F>0</F>
+<f>0</f>
+<G>0</G>
+<g>0</g>
+<H>0</H>
+<h>1</h>
+<I>1</I>
+<i>A</i>
+</a1:d>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

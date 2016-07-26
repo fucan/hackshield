@@ -1,0 +1,31 @@
+#include <Windows.h>
+
+MUICON	Icon		"..\\..\\data\\mu.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION    	5,12,0,0
+PRODUCTVERSION 	5,12,0,0
+FILEOS         	VOS__WINDOWS32
+FILETYPE       	VFT_DLL
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+			VALUE "CompanyName", "Game Hack Protector"
+			VALUE "FileDescription", "GHP [Client]"
+			VALUE "FileVersion", "5.12.0"
+			VALUE "InternalName", "GHP [Client]"
+			VALUE "LegalCopyright", "Game Hack Protector"
+			VALUE "LegalTrademarks", "Game Hack Protector"
+			VALUE "OriginalFilename", "GHP.dll"
+			VALUE "ProductName", "GHP"
+			VALUE "ProductVersion", "5.12.0"
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 0x04E4
+    END
+END

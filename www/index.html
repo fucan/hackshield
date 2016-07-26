@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>GHPServer [5.12.0 DEV]</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/core.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
+</head>
+<body>
+	<div id="top-bar-container">
+		<div id="top-bar-logo-container">
+			<span class="top-bar-logo">GHP</span>
+			<span class="top-bar-logo-version">5.12.0 [DEV]</span>
+		</div>
+		<div id="top-bar-server-container">ewad</div>
+		<div id="top-bar-search-container">
+			<div id="search"><span class="top-bar-search-icon">
+				<i class="icon-search"></i></span>
+				<span class="top-bar-search-input"><input type="text" placeholder="Pesquisar players, logs, bans, eventos, hacks, etc"></input></span>
+			</div>
+		</div>
+	</div>
+	<div id="menu-container">
+		<ul>
+			<li>
+				<span id="menu-item-player" class="menu-item" onclick="MenuClick('menu-item-player')">
+				<span class="menu-item-icon"><i class="icon-user"></i></span>
+				<span class="menu-item-text">Jogadores</span>
+				</span>
+				<div id="submenu-item-player" class="submenu-container">
+					<ul>
+						<li>
+							<span id="submenu-item-players-on" class="submenu-item" onclick="SubmenuClick('submenu-item-players-on')">
+							<span class="submenu-item-text">Online</span>
+							</span>
+						</li>
+						<li>
+							<span id="submenu-item-all-players" class="submenu-item" onclick="SubmenuClick('submenu-item-all-players')">
+							<span class="submenu-item-text">Todos</span>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<span id="menu-item-banned" class="menu-item" onclick="MenuClick('menu-item-banned')">
+				<span class="menu-item-icon"><i class="icon-block"></i></span>
+				<span class="menu-item-text">Bans</span>
+				</span>
+				<div id="submenu-item-banned" class="submenu-container">
+					<ul>
+						<li>
+							<span id="submenu-item-banned-account" class="submenu-item" onclick="SubmenuClick('submenu-item-banned-account')">
+							<span class="submenu-item-text">Conta</span>
+							</span>
+						</li>
+						<li>
+							<span id="submenu-item-banned-ip" class="submenu-item" onclick="SubmenuClick('submenu-item-banned-ip')">
+							<span class="submenu-item-text">Endereço IP</span>
+							</span>
+						</li>
+						<li>
+							<span id="submenu-item-banned-hwid" class="submenu-item" onclick="SubmenuClick('submenu-item-banned-hwid')">
+							<span class="submenu-item-text">ID do Hardware</span>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<span id="menu-item-options" class="menu-item" onclick="MenuClick('menu-item-options')">
+				<span class="menu-item-icon"><i class="icon-cog"></i></span>
+				<span class="menu-item-text">Configurações</span>
+				</span>
+				<div id="submenu-item-options" class="submenu-container">
+				</div>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

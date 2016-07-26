@@ -1,0 +1,1 @@
+xcopy "Z:\GHP 5\Projeto\bin\Release\*.*" "Z:\GHP 5\Release\" /Y

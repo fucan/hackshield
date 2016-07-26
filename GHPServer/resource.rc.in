@@ -1,0 +1,30 @@
+#include <Windows.h>
+MAINICON	Icon		"..\\..\\data\\gdserverico.ico"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION    	@GHP_SRV_VERSION_MAJOR@,@GHP_SRV_VERSION_MINOR@,@GHP_SRV_RELEASE_MAJOR@,0
+PRODUCTVERSION 	@GHP_SRV_VERSION_MAJOR@,@GHP_SRV_VERSION_MINOR@,@GHP_SRV_RELEASE_MAJOR@,0
+FILEOS         	VOS__WINDOWS32
+FILETYPE       	VFT_APP
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+			VALUE "CompanyName", "Game Hack Protector"
+			VALUE "FileDescription", "GHP [Server]"
+			VALUE "FileVersion", "@GHP_SRV_VERSION_MAJOR@.@GHP_SRV_VERSION_MINOR@.@GHP_SRV_RELEASE_MAJOR@"
+			VALUE "InternalName", "GHP [Server]"
+			VALUE "LegalCopyright", "Game Hack Protector"
+			VALUE "LegalTrademarks", "Game Hack Protector"
+			VALUE "OriginalFilename", "GHPServer.exe"
+			VALUE "ProductName", "GHPServer"
+			VALUE "ProductVersion", "@GHP_SRV_VERSION_MAJOR@.@GHP_SRV_VERSION_MINOR@.@GHP_SRV_RELEASE_MAJOR@"
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 0x04E4
+    END
+END

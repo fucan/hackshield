@@ -1,0 +1,2 @@
+LicGen.exe
+DBGen.exe
